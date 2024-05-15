@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body style="background-color: rgb(240, 240, 240);">
+   <div class="row">
+    <h1 style="text-align: center; font-family:italic;">BUDGET CALCULATOR</h1>
+    <p id="error-msg"></p>
+    <div class="col-3"></div>
+    <div style="border: 3px solid black;background-color: pink;" class="col-6 w-25   rounded border-5 m-4 p-3  " >
+        <h3 class="title" style="font-family: italic;color: rgb(0, 0, 0) ;text-shadow: 1px 2px 3px  rgb(62, 59, 59); text-align: center;">Create New Account</h3>
+        <br>
+         <center>
+        <input type="text"  id="em" class="m-1 p-1 rounded form-control" id="text"  placeholder="Username">
+        <br>
+        <input type="text"  id="uname" class="m-1 rounded form-control" id="text" placeholder="E-Mail">
+        <br>
+        <input type="text"  id="psw" class="m-1 rounded form-control" id="text" placeholder="Password">
+        <br>
+        <button class="border rounded m-3 bg-primary" onclick="regis()" >Register</button>
+    
+         </center>
+    </div>
+    <div class="col-5">
+        <img style="width: 400px;margin-top: 50px;" src="https://png.pngtree.com/png-vector/20220929/ourmid/pngtree-couple-plan-family-budget-png-image_6223079.png" alt="">
+    </div>
+    <div class="col-2"></div>
+   </div>
+</body>
+<script src="./script.js"></script>
+</html>
